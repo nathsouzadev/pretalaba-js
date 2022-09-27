@@ -1,11 +1,11 @@
-let idade = 30
-
-if (idade >= 18 && idade < 70 ) {
-    console.log('Voce deve votar e o voto é obrigatorio')
-} else if (idade >= 16 && idade < 18 || idade >=70 ) {
-    console.log('Voce pode votar, mas não é obrigatorio')
-} else {
-    console.log('Voce nao pode votar')
+function validarVoto(idade){
+    if (idade >= 18 && idade < 70 ) {
+        console.log('Voce deve votar e o voto é obrigatorio')
+    } else if (idade >= 16 && idade < 18 || idade >=70 ) {
+        console.log('Voce pode votar, mas não é obrigatorio')
+    } else {
+        console.log('Voce nao pode votar')
+    }
 }
 
 function somar (num1, num2) {
@@ -18,3 +18,4 @@ function bemVinda(nome, idade) {
 }
 
 bemVinda('Nath', '32')
+validarVoto(58)
